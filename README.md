@@ -22,7 +22,10 @@ The dhcp agent is documented via its model
 TODO
 
 ### Invocation 
-The agent is invoked 
+
+The agent is invoked as `bin/dhcp-agent.pl --control=$ZMQ_URL --dsn=$DATABASE_DSN --password="Database Password"`
+
+--verbose can be specified to provide debug information on packet processing and datastore operations.
 
 (c) 2018 Inocybe Technologies
 (c) Cambridge Greys Ltd
